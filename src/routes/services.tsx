@@ -65,11 +65,12 @@ const groups = [
         heading: "Agreements & Drafting",
         items: [
           "Employee Agreements, Handbook & Policies",
-          "Master Service Agreements",
-          "Director, Founder & Shareholder Agreements",
-          "Share Subscription, Assignment & License Agreements",
-          "ESOP & POSH Policies",
-          "Terms of Service & Privacy Policies for Web/Mobile",
+          "Service Agreements",
+          "Founders, Shareholders and Share Subscription Agreements",
+          "Agreements on Technology and Privacy",
+          "Assignment & License Agreements",
+          "ESOP & POSH & Terms of Service & Privacy Policies",
+          "General Corporate Governance and Advisory Opinions",
         ],
       },
       {
