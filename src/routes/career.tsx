@@ -103,7 +103,7 @@ function CareerPage() {
                   <div className="mt-1 text-sm text-muted-foreground">{o.type}</div>
                 </div>
                 <a
-                  href={`mailto:careers@triadusconsultants.com?subject=Application — ${encodeURIComponent(o.role)}`}
+                  href={`mailto:admin@triadusconsultants.com?subject=Application — ${encodeURIComponent(o.role)}`}
                   className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90"
                 >
                   Apply <Mail className="h-4 w-4" />
@@ -116,10 +116,10 @@ function CareerPage() {
             <p className="text-sm text-muted-foreground">
               Don't see a fit? Send your CV to{" "}
               <a
-                href="mailto:careers@triadusconsultants.com"
+                href="mailto:admin@triadusconsultants.com"
                 className="font-semibold text-foreground underline-offset-4 hover:underline"
               >
-                careers@triadusconsultants.com
+                admin@triadusconsultants.com
               </a>
             </p>
           </div>
