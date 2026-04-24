@@ -14,7 +14,7 @@ export function SiteFooter() {
             <div>
               <div className="font-display text-xl font-bold">Triadus Consultants</div>
               <div className="text-xs uppercase tracking-[0.2em] text-primary-foreground/60">
-                Legal · Financial · Secretarial
+                Financial · Legal · Secretarial
               </div>
             </div>
           </div>
