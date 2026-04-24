@@ -63,7 +63,7 @@ function AboutPage() {
               secretarial consulting</span>.
             </p>
             <p>
-              Each of our founding partners is a seasoned expert with a proven track record
+              Each of our founding member is a seasoned expert with a proven track record
               of guiding businesses through complex challenges. By combining our strengths,
               we deliver comprehensive, professional and strategic advisory that paves the
               way for sustainable growth.
@@ -104,8 +104,8 @@ function AboutPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 md:py-24">
         <SectionHeading
           eyebrow="Our team"
-          title="Led by partners across legal, finance and corporate practice"
-          description="A multi-disciplinary team of Chartered Accountants, Company Secretaries and Advocates — collaborating to give your business a single, trusted advisory partner."
+          title="Led by experts across legal, finance and corporate practice"
+          description="A multi-disciplinary team of Chartered Accountants, Company Secretaries and Advocates — collaborating to give your business a single, trusted advisory experts."
         />
         <div className="mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           {[
