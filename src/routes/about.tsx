@@ -114,7 +114,6 @@ function AboutPage() {
             "CS Akshata Rao",
             "CA Darshan Amarnath",
             "Adv. Pushkar R",
-            "Adv. Priya V",
           ].map((name) => (
             <div
               key={name}
