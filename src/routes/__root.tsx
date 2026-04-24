@@ -1,6 +1,4 @@
-import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
-
-import appCss from "../styles.css?url";
+import { Outlet, Link, createRootRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
@@ -23,55 +21,9 @@ function NotFoundComponent() {
 }
 
 export const Route = createRootRoute({
-  head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Triadus Consultants — Legal, Financial & Secretarial Advisory" },
-      {
-        name: "description",
-        content:
-          "Triadus Consultants is a Bengaluru-based advisory firm offering integrated legal, financial and secretarial services for startups and growing businesses.",
-      },
-      { name: "author", content: "Triadus Consultants" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:title", content: "Triadus Consultants — Legal, Financial & Secretarial Advisory" },
-      { name: "twitter:title", content: "Triadus Consultants — Legal, Financial & Secretarial Advisory" },
-      { name: "description", content: "A professional, 5-page website for firms, featuring Home, About, Services, Careers, and Contact sections." },
-      { property: "og:description", content: "A professional, 5-page website for firms, featuring Home, About, Services, Careers, and Contact sections." },
-      { name: "twitter:description", content: "A professional, 5-page website for firms, featuring Home, About, Services, Careers, and Contact sections." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c204ab6b-5503-4071-b9bc-88884f27108f/id-preview-709242ee--282a2f53-9fbf-4c0a-9baa-862c23b6839c.lovable.app-1777013021197.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c204ab6b-5503-4071-b9bc-88884f27108f/id-preview-709242ee--282a2f53-9fbf-4c0a-9baa-862c23b6839c.lovable.app-1777013021197.png" },
-    ],
-    links: [
-      { rel: "stylesheet", href: appCss },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap",
-      },
-    ],
-  }),
-  shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
 });
-
-function RootShell({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head>
-        <HeadContent />
-      </head>
-      <body>
-        {children}
-        <Scripts />
-      </body>
-    </html>
-  );
-}
 
 function RootComponent() {
   return (
