@@ -36,6 +36,13 @@ export const Route = createRootRoute({
       { name: "author", content: "Triadus Consultants" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Triadus Consultants — Legal, Financial & Secretarial Advisory" },
+      { name: "twitter:title", content: "Triadus Consultants — Legal, Financial & Secretarial Advisory" },
+      { name: "description", content: "A professional, 5-page website for firms, featuring Home, About, Services, Careers, and Contact sections." },
+      { property: "og:description", content: "A professional, 5-page website for firms, featuring Home, About, Services, Careers, and Contact sections." },
+      { name: "twitter:description", content: "A professional, 5-page website for firms, featuring Home, About, Services, Careers, and Contact sections." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c204ab6b-5503-4071-b9bc-88884f27108f/id-preview-709242ee--282a2f53-9fbf-4c0a-9baa-862c23b6839c.lovable.app-1777013021197.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c204ab6b-5503-4071-b9bc-88884f27108f/id-preview-709242ee--282a2f53-9fbf-4c0a-9baa-862c23b6839c.lovable.app-1777013021197.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
