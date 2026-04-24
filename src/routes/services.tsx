@@ -31,7 +31,7 @@ const groups = [
     sections: [
       {
         heading: "Risk Advisory & Audit",
-        items: ["Statutory Audit", "Internal Audit", "RCM design", "Risk assessment & reviews", "Tax Audit"],
+        items: ["Statutory Audit", "Internal Audit", "RCM design", "Risk assessment & reviews", "Tax Audit", "Stock Audit"],
       },
       {
         heading: "Financial Management & Advisory",
