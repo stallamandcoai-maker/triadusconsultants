@@ -107,30 +107,6 @@ function AboutPage() {
           title="Led by partners across legal, finance and corporate practice"
           description="A multi-disciplinary team of Chartered Accountants, Company Secretaries and Advocates — collaborating to give your business a single, trusted advisory partner."
         />
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-          {[
-            "CA Saiganesh Tallam",
-            "CS Deepak Athreyas",
-            "CS Akshata Rao",
-            "CA Darshan Amarnath",
-            "Adv. Pushkar R",
-          ].map((name) => (
-            <div
-              key={name}
-              className="flex items-center gap-4 rounded-xl border border-border bg-card p-5"
-            >
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold font-display text-lg font-bold text-gold-foreground">
-                {name.split(" ").slice(-1)[0][0]}
-              </div>
-              <div>
-                <div className="font-semibold text-foreground">{name}</div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">
-                  Partner
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
       </section>
     </>
   );
