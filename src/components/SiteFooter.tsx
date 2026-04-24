@@ -20,7 +20,7 @@ export function SiteFooter() {
           </div>
           <p className="mt-6 max-w-md text-sm leading-relaxed text-primary-foreground/70">
             A one-stop advisory firm uniting top-tier experts across legal, financial and
-            secretarial domains to help businesses build a strong, compliant foundation.
+            secretarial domains to help businesses build a strong, compliant foundation. Sudharshan
           </p>
         </div>
 
