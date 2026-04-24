@@ -49,6 +49,7 @@ const groups = [
         items: [
           "Direct Tax filings",
           "GST Compliance and advisory",
+          "GST litigation services",
           "Tax planning & optimisation",
           "Assessment support",
         ],
