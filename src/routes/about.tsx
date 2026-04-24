@@ -125,9 +125,6 @@ function AboutPage() {
               </div>
               <div>
                 <div className="font-semibold text-foreground">{name}</div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">
-                  Partner
-                </div>
               </div>
             </div>
           ))}
